@@ -68,3 +68,59 @@ header ul li {
   display: inline-block;
   margin-right: 20px;
 }
+
+/* Preview Section  */
+.preview {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.preview .text {
+  max-width: 400px;
+}
+.preview .text p {
+  /* color: #252432; */
+  color: #a9afbb;
+}
+
+.preview-img {
+  max-width: 400px;
+  margin-top: 20px;
+  border-radius: 40px;
+}
+
+img:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  box-shadow: #252432;
+}
+
+/* Statistics Section */
+.stats {
+  text-align: center;
+  background: #E5E7FF;
+  padding: 30px 20px;
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+}
+.stat-box {
+  display: flex;
+  justify-content: space-around;
+  /* margin-top: 30px; */
+}
+
+.stat-box div h2 {
+  font-size: 40px;
+  color: #3d5afe;
+  margin: 0px;
+}
+
+.stat-box p {
+  margin-top: 0px;
+  color: #a9afbb;
+}
