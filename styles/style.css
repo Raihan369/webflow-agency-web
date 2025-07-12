@@ -1,0 +1,70 @@
+/* Created by Abdur Rahman  */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #000;
+  background: #F5F8FF;
+  /* background: #f5f7ff; */
+  line-height: 1.6;
+}
+
+/* Hero Section  */
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  background: #3d5afe;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+.btn:hover {
+  background: #f4d642;
+  color: rgb(0, 0, 0);
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px;
+  /* background: #fff; */
+  position: sticky;
+  /* top: -20; */
+  /* z-index: 1000; */
+}
+
+.logo {
+  font-weight: bold;
+  color: #4E47FF;
+  font-size: 34px;
+}
+.logo img:hover{
+  
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.hero {
+  text-align: center;
+  padding: 0px 20px 100px;
+  background: url('../images/Hero-bg.png') center center/cover no-repeat;
+}
+
+.hero h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+header ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
