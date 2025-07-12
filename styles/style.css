@@ -15,6 +15,7 @@ a {
   text-decoration: none;
 }
 
+/* button style  */
 .btn {
   background: #3d5afe;
   color: white;
@@ -34,9 +35,10 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 50px 50px;
+  /* gap: 20px; */
   /* background: #fff; */
   position: sticky;
-  /* top: -20; */
+    align-items: center;
   /* z-index: 1000; */
 }
 
@@ -59,8 +61,10 @@ a {
 }
 
 .hero h1 {
-  font-size: 2em;
-  margin-bottom: 20px;
+  font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #252432;
 }
 
 header ul li {
@@ -108,6 +112,11 @@ img:hover {
   margin: auto;
   border-radius: 20px;
 }
+.stats-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #252432;
+}
 .stat-box {
   display: flex;
   justify-content: space-around;
@@ -115,7 +124,7 @@ img:hover {
 }
 
 .stat-box div h2 {
-  font-size: 40px;
+  font-size: 50px;
   color: #3d5afe;
   margin: 0px;
 }
@@ -130,6 +139,11 @@ img:hover {
   padding: 60px 20px;
   /* background: #fff; */
   text-align: center;
+}
+.testimonials-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #252432;
 }
 .testimonials .name {
   display: flex;
@@ -232,4 +246,37 @@ img:hover {
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 1em;
+}
+
+
+/* Footer Section  */
+.footer {
+  text-align: center;
+  padding: 50px 20px;
+  margin: auto;
+  background: #fff;
+}
+
+.footer p{
+  width: 40%;
+  color: #8987A1;
+  margin: auto;
+}
+
+.logo-2{
+    font-weight: bold;
+    color: #4E47FF;
+    font-size: 80px;
+    margin: 0;
+}
+.footer-nav {
+  margin-top: 10px;
+}
+
+.footer-nav a {
+  margin: 0 10px;
+  color: #8987A1;
+}
+.footer-nav a:hover {
+  color: #3d5afe;
 }
