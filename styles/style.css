@@ -197,3 +197,39 @@ img:hover {
   margin-top: 30px;
   border-radius: 30px;
 }
+
+/* Contact Section  */
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 60px 20px;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.contact-text h2 {
+  font-size: 90px;
+  /* font-weight: bold; */
+  margin-top: 50px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.contact-form label{
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+}
