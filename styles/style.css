@@ -124,3 +124,51 @@ img:hover {
   margin-top: 0px;
   color: #a9afbb;
 }
+
+/* User Testimonials Section  */
+.testimonials {
+  padding: 60px 20px;
+  /* background: #fff; */
+  text-align: center;
+}
+.testimonials .name {
+  display: flex;
+}
+.testimonials .name img{
+  display: flex;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.reviewer{
+  margin: 0px 0px 0px 10px;
+}
+
+.reviewer small{
+  /* color: #c4cad7; */
+  color: #bfc4cf;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  text-align: left;
+  justify-items: left;
+  background: #f8f9ff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+.stars {
+  color: gold;
+}
